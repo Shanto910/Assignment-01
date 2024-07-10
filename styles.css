@@ -126,3 +126,17 @@ img {
 	color: #525660;
 	line-height: 1.5;
 }
+
+.section-inspiration {
+	margin-top: 90px;
+}
+
+.video-box {
+	margin-top: 48px;
+	border: 1px solid #d5d5d8;
+	border-radius: 16px;
+	padding: 32px;
+}
+.inspiration-video {
+	border-radius: 16px;
+}
