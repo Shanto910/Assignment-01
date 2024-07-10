@@ -8,7 +8,7 @@
 
 body {
 	font-family: 'Azeret Mono', Helvetica, sans-serif;
-	color: rgb(13, 19, 33);
+	color: #0d1321;
 }
 
 img {
@@ -149,6 +149,41 @@ img {
 
 /* #########  TARGET ######### */
 
+.section-target {
+	margin-top: 150px;
+}
+
+.section-target .container {
+	margin-top: 48px;
+	grid-template: 1fr / repeat(3, 1fr);
+	gap: 24px;
+}
+.article-box {
+	padding: 40px;
+	border-radius: 16px;
+}
+.article-box span {
+	display: block;
+	margin-top: 24px;
+	font-size: 24px;
+	font-weight: 800;
+	line-height: 1;
+}
+.article-box a {
+	display: inline-block;
+	margin-top: 24px;
+	color: currentColor;
+}
+.article-html {
+	background-color: #fff6f4;
+}
+.article-css {
+	background-color: #f2f6fe;
+}
+.article-js {
+	background-color: #fffdf2;
+}
+
 /* #########  CTA ######### */
 
 .section-cta {
@@ -189,7 +224,7 @@ img {
 }
 .submit {
 	padding: 20px;
-	color: #0d1321;
+	color: currentColor;
 }
 
 /* #########  FOOTER ######### */
